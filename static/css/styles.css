@@ -4,6 +4,8 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .container{
@@ -17,6 +19,12 @@ body{
 }
 .squareDIV{
     aspect-ratio: 1/1;
-    border: 1px solid black;
     box-sizing: border-box;
+    background-color: wheat;
+    border: 1px solid
+}
+
+.squareDIV:hover{
+    background-color: blue;
+    transition:0;
 }
