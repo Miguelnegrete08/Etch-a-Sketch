@@ -4,7 +4,7 @@ const btn = document.querySelector("button")
 
 function gridSize(){
     let size = prompt("Set number of squares for your grid", "16");
-    if(size <= 100){
+    if(size >0 && size <= 100){
         container.textContent="";
         let Dim = 16;
         Dim = size;
@@ -21,7 +21,7 @@ function gridSize(){
         }
     }
     else(
-        alert("Please type a number below 100")
+        alert("Please type a number between 1 and 100")
     )
 }
 
